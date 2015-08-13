@@ -33,7 +33,7 @@ public class StringCalculator {
             }
         }
 
-        System.out.println(delimiter);
+//        System.out.println(delimiter);
 
         if (numbers.contains(delimiter) || numbers.contains("\n")) {
             String[] parts = numbers.split(delimiter + "|" + "\n");
